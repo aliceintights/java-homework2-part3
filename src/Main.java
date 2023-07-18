@@ -4,6 +4,6 @@ public class Main {
         BmiService service = new BmiService();
         int BmiResult = 1;
         int BMI = service.calculate(BmiResult);
-        System.out.println(BMI);
+        System.out.println("BMI " + BMI);
     }
 }
